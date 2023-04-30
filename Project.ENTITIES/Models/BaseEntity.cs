@@ -14,12 +14,14 @@ namespace Project.ENTITIES.Models
         public DateTime? ModifiedDate { get; set; }
         public DateTime? DeletedDate { get; set; }
         public DataStatus Status { get; set; }
+        
 
 
         public BaseEntity()
         {
             CreatedDate = DateTime.Now;
             Status = DataStatus.Inserted;
+            
         }
     }
 }

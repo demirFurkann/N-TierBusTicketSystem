@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\EmployeeRole.cs" />
     <Compile Include="Enums\DataStatus.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderDetail.cs" />
     <Compile Include="Models\Product.cs" />

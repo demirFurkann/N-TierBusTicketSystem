@@ -15,9 +15,20 @@ namespace Project.ENTITIES.Models
         public string TckNo { get; set; }
         public string Gender { get; set; }
 
+        public int? EmployeeID { get; set; }
+
+        public Customer()
+        {
+            Orders = new List<Order> { };
+        }
+
+       
+
         //Relational Properties
 
         public virtual List<Order> Orders { get; set; }
+
+        public virtual Employee Employee { get; set; }
 
     }
 }

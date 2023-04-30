@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace Project.ENTITIES.Models
 {
-    public class Product:BaseEntity
+    public class Product : BaseEntity
     {
         public string JourneyNo { get; set; }
-        public DateTime Departure { get; set; }
-        public DateTime Arrival { get; set; }
-        public DateTime Hour { get; set; }
+        public string Departure { get; set; }
+        public string Arrival { get; set; }
+        public string Date { get; set; }
+        public string Hour { get; set; }
         public string Captain { get; set; }
         public decimal UnitPrice { get; set; }
+        public string Chair { get; set; }
+
 
 
         //Relational Properties

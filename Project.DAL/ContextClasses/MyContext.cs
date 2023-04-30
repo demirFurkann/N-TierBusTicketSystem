@@ -21,6 +21,7 @@ namespace Project.DAL.ContextClasses
             modelBuilder.Configurations.Add(new OrderDetailMap());
             modelBuilder.Configurations.Add(new OrderMap());
             modelBuilder.Configurations.Add(new CustomerMap());
+            modelBuilder.Configurations.Add(new EmployeeMap());
 
         }
 
@@ -28,5 +29,6 @@ namespace Project.DAL.ContextClasses
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

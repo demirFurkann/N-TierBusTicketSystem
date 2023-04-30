@@ -9,7 +9,8 @@ namespace Project.ENTITIES.Models
     public class Order:BaseEntity
     {
         public string TicketNo { get; set; }
-        public decimal TotalPrice { get; set; }
+        public string SeatNumber { get; set; }
+       
         public int? CustomerID { get; set; }
 
 
